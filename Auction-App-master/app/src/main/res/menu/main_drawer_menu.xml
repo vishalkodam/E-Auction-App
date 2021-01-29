@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menuTop"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeDrawer"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/chat2"
+            android:icon="@drawable/ic_person_white_90dp"
+            android:title="@string/account" />
+        <item
+            android:id="@+id/chat3"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/notifications" />
+        <item
+            android:id="@+id/chat4"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/help" />
+    </group>
+
+    <group
+        android:id="@+id/menuBottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/logOut"
+            android:icon="@drawable/ic_baseline_transit_enterexit_24"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/exitApp"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/exit" />
+
+    </group>
+</menu>

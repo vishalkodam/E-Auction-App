@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Auction App</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="notifications">Notifications</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+    <string name="logout">Log Out</string>
+    <string name="username">Username</string>
+    <string name="example_email">email@domain.com</string>
+    <string name="bids">Bids</string>
+    <string name="listing">Listing</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="addItem">Add an item for sale</string>
+    <string name="ItemName">Item Name</string>
+    <string name="itemName">Item Name: </string>
+    <string name="closingDate">Closing Date:</string>
+    <string name="numberOfBids">Number of Bids: 10</string>
+    <string name="highestBid">Highest Bid: Rs 1000</string>
+    <string name="total_bids">Total Bids : </string>
+    <string name="fill_the_form_to_add_item_to_auction">Fill The Form To Add Item to Auction</string>
+    <string name="original_price">Original Price (INR)</string>
+    <string name="curent_value">Current Value (INR)</string>
+    <string name="bidding_start_date">Bidding Start Date</string>
+    <string name="bidding_close_date">Bidding Close Date</string>
+    <string name="item_category">Item Category</string>
+    <string name="description">Description</string>
+    <string name="number_of_items">Number of Items</string>
+    <string name="original">Is the product original?</string>
+    <string name="addImages">add images</string>
+    <string name="addDoc">Add Documents</string>
+    <string name="termsAndCondition">I agree to the <u>terms and conditions</u>, privacy policy of the I-Auction community. I also agree that the product has my content and is 100% my belonging. </string>
+    <string name="termsAndConditionHome">I agree to the <u>terms and conditions</u>, privacy policy of the I-Auction community.</string>
+    <string name="put_on_sale">Put on Sale</string>
+    <string name="notSure">Not Sure? Check <u>here</u></string>
+    <string name="noItems">New to Auctions?</string>
+    <string name="clickText">Click the top right icon to put a new item for auction.</string>
+    <string name="listings"> Your Listings: </string>
+    <string name="welcome">Welcome!</string>
+    <string name="register">Register Yourself here</string>
+    <string name="fullName">Enter Your Name</string>
+    <string name="phone">Enter Your Phone Number</string>
+    <string name="uploadPhoto">Add a photo</string>
+    <string name="enterEmail">Enter Your Email</string>
+    <string name="enterAdress">Enter a Valid Address</string>
+    <string name="paymentText">Please make sure to add a feasible payment method (accept and pay) in your accounts settings before proceeding any auction decision.</string>
+    <string name="regbtn">Verify &amp; Register</string>
+    <string name="welcomeBack">Welcome Back!</string>
+    <string name="large_text">
+        "Material is the metaphor."
+        "\n\nA material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic."
+        "\nSurfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics."
+        "\nThe fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts."
+        "\n\nBold, graphic, intentional."
+        "\n\nThe foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience."
+        "\nAn emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user."
+        "\n\nMotion provides meaning."
+        "\n\nMotion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design."
+        "\nAll action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize."
+        "\nMotion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent."
+        "\n\n3D world."
+        "\n\nThe material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness."
+        "\nOn the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis."
+        "\n\nLight and shadow."
+        "\n\nWithin the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles."
+        "\nShadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp."
+        "\n\nResting elevation."
+        "\n\nAll material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible."
+        "\n\nComponent elevations."
+        "\n\nThe resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app)."
+        "\nComponents may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop)."
+        "\n\nResponsive elevation and dynamic elevation offsets."
+        "\n\nSome component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets."
+        "\nDynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation."
+        "\nOnce the input event is completed or cancelled, the component will return to its resting "
+        "elevation."
+        "\n\nAvoiding elevation interference."
+        "\n\nComponents with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout."
+        "\nOn a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears."
+        "\nOn the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="login">Login to your Account</string>
+    <string name="password">Password</string>
+    <string name="registerText">New User? <u>Register here</u></string>
+    <string name="createPassword">Create Password</string>
+    <string name="passwordMakeSure">Make Sure password is Bullet Proof</string>
+    <string name="exampleDesc">Samsung S6 perfectly working condition, year of purchase 2017, ram 8gb, Super AMOLED capacitive touchscreen, 16M colors,OS Android Oreo 8.0, chipset Exynos 7420 Octa (14 nm) Octa-core, 2550 mAh battery </string>
+    <string name="iphoneText">Brand new IPhone 11 pro max refurbished, US model, year of purchase 2020, crisp display, better than ever battery, 128gb variant, color metal grey, hardly used for a month, all working and great condition, wireless charger included.</string>
+
+    <string name="activeBids">Active BIdings</string>
+    <string name="close_accept_the_bid"><![CDATA[Close & Accept the Bid]]></string>
+    <string name="makeABid">Enter your Bid Amount</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="origin">Origin</string>
+</resources>

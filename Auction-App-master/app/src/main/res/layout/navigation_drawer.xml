@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="175dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineProvider="background"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:id="@+id/navigation_drawer_userImage"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/ic_person_white_90dp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/navigation_drawer_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="@string/username"
+        android:textSize="15sp" />
+
+    <!-- add roll number if possible-->
+
+    <TextView
+        android:id="@+id/navigation_drawer_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="@string/example_email"
+        android:textSize="15sp" />
+</LinearLayout>
